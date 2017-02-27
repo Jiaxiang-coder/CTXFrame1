@@ -49,6 +49,9 @@ namespace NSFrame1 {
         virtual void Run() = 0;
         virtual void Exec() = 0;
     };
+    interface IAI : public IXObject{
+        virtual void Init() = 0;
+    };
 }
 
 #endif // FRAMEHEADERS
